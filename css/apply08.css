@@ -22,6 +22,10 @@ table {
 	border: 3px solid #71881b;
 }
 
+table, tr, th, td {
+	border-collapse: collapse;
+}
+
 caption {
 	font-size: 2em;
 	padding: 2%;
@@ -41,6 +45,7 @@ td {
 tr:nth-child(odd) {
 	background-color: #d3e788;
 	border-collapse: collapse;
+	padding: 2%;
 }
 /* Style rule for the container */
 #container {
